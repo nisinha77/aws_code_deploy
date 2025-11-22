@@ -15,7 +15,7 @@ phases:
             - printenv
             - echo "Start the installation process"
             - echo "Installation Process Completed"
-            - echo "my password is $db_password"
+            - echo "my password is $my_db_password"
 
     pre_build:
         commands: 
